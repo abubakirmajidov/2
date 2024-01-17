@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 635px;
+  margin: 0 auto;
+}
+
+.h-25 {
+  color: #2ab3b1;
+  font-family: Karla;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  width: 324px;
+}
+
+.h-26 {
+  color: #c0df33;
+  font-family: Karla;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.225px;
+  width: 367px;
+  margin-top: 24px;
+}
+
+.p {
+  color: #9aa7be;
+  font-family: Karla;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.2px;
+  width: 555px;
+  margin: 11px 0 40px 0;
+}
+
+.div54 {
+  display: flex;
+  align-items: center;
+}
+
+.div1 {
+  width: 318px;
+  height: 259px;
+  flex-shrink: 0;
+  background: #2ab3b1;
+  padding: 40px;
+}
+
+.div1 h2 {
+  color: #fff;
+  font-family: Karla;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.225px;
+}
+.div12 {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.div12 h1 {
+  color: #fff;
+  font-family: Karla;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.4px;
+}
+
+.div12 span {
+  color: #fff;
+  font-family: Karla;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.2px;
+  opacity: 0.5;
+}
+.div1 p {
+  color: #fff;
+  font-family: Karla;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.2px;
+}
+
+.div1 button {
+  width: 237px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #c0df33;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+  border: none;
+  margin-top: 26px;
+}
+.div2 {
+  width: 318px;
+  height: 259px;
+  flex-shrink: 0;
+  background: #4abfbc;
+  padding: 40px;
+}
+
+.div2 h2 {
+  color: #fff;
+  font-family: Karla;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.225px;
+  margin-bottom: 18px;
+}
+
+.div2 p {
+  color: #fff;
+  font-family: Karla;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: -0.175px;
+  width: 200px;
+}
