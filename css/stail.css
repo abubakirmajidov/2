@@ -8,13 +8,33 @@ a {
   text-decoration: none;
 }
 
-.container {
-  width: 100%;
-  max-width: 635px;
+body {
+  display: flex;
+  width: 1440px;
+  height: 800px;
+  padding: 163px 402px 162px 403px;
+  justify-content: center;
+  align-items: center;
+  background: #e6eff5;
   margin: 0 auto;
 }
 
-.h-25 {
+.container {
+  width: 100%;
+  max-width: 715px;
+  margin: 0 auto;
+}
+
+.div-container {
+  background-color: #fff;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 15px 30px 0px rgba(0, 81, 171, 0.15);
+  padding: 40px;
+  height: 475px;
+}
+
+.div-container__h2 {
   color: #2ab3b1;
   font-family: Karla;
   font-size: 24px;
@@ -25,7 +45,7 @@ a {
   width: 324px;
 }
 
-.h-26 {
+.div-container__h2-2 {
   color: #c0df33;
   font-family: Karla;
   font-size: 18px;
@@ -37,7 +57,7 @@ a {
   margin-top: 24px;
 }
 
-.p {
+.div-container__p {
   color: #9aa7be;
   font-family: Karla;
   font-size: 16px;
@@ -49,20 +69,22 @@ a {
   margin: 11px 0 40px 0;
 }
 
-.div54 {
+.card {
   display: flex;
   align-items: center;
+  margin-left: -40px;
 }
 
-.div1 {
+.card-text1 {
   width: 318px;
   height: 259px;
   flex-shrink: 0;
   background: #2ab3b1;
   padding: 40px;
+  border-radius: 0 0 0 8px;
 }
 
-.div1 h2 {
+.card-text1 h2 {
   color: #fff;
   font-family: Karla;
   font-size: 18px;
@@ -71,12 +93,12 @@ a {
   line-height: normal;
   letter-spacing: -0.225px;
 }
-.div12 {
+.card-text1__tital {
   display: flex;
   align-items: center;
   gap: 11px;
 }
-.div12 h1 {
+.card-text1__tital h1 {
   color: #fff;
   font-family: Karla;
   font-size: 32px;
@@ -86,7 +108,7 @@ a {
   letter-spacing: -0.4px;
 }
 
-.div12 span {
+.card-text1__tital span {
   color: #fff;
   font-family: Karla;
   font-size: 16px;
@@ -96,7 +118,7 @@ a {
   letter-spacing: -0.2px;
   opacity: 0.5;
 }
-.div1 p {
+.card-text1 p {
   color: #fff;
   font-family: Karla;
   font-size: 16px;
@@ -106,7 +128,7 @@ a {
   letter-spacing: -0.2px;
 }
 
-.div1 button {
+.card-text1 button {
   width: 237px;
   height: 48px;
   flex-shrink: 0;
@@ -116,15 +138,16 @@ a {
   border: none;
   margin-top: 26px;
 }
-.div2 {
+.card-text2 {
   width: 318px;
   height: 259px;
   flex-shrink: 0;
   background: #4abfbc;
   padding: 40px;
+  border-radius: 0 0 8px 0;
 }
 
-.div2 h2 {
+.card-text2 h2 {
   color: #fff;
   font-family: Karla;
   font-size: 18px;
@@ -135,7 +158,7 @@ a {
   margin-bottom: 18px;
 }
 
-.div2 p {
+.card-text2 p {
   color: #fff;
   font-family: Karla;
   font-size: 14px;
